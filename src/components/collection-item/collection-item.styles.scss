@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    transition: 0.8s;
   }
 
   .custom-button {
@@ -20,6 +21,7 @@
     position: absolute;
     top: 255px;
     display: none;
+    transition: 0.6s;
   }
 
   &:hover {
