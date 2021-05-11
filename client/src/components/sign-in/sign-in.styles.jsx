@@ -21,7 +21,6 @@ export const ButtonsBarContainer = styled.div`
   @media screen and (max-width: 800px) {
     display: grid;
     grid-template-columns: 1fr;
-    width: 150px;
     grid-gap: 15px;
   }
 `;

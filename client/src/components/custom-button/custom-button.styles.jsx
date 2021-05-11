@@ -26,6 +26,14 @@ const invertedButtonStyles = css`
     color: white;
     border: none;
   }
+
+  @media screen and (max-width: 800px) {
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
 `;
 
 const googleSignInStyles = css`
