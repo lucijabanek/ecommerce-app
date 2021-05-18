@@ -8,6 +8,8 @@ import { selectCartHidden } from "../../redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../redux/user/user.selector";
 import { signOutStart } from "../../redux/user/user.actions";
 
+import SimpleMenu from "../menu-shop/menu-shop.component";
+
 import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 import {
@@ -23,7 +25,7 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
       <Logo className="logo" />
     </LogoContainer>
     <OptionsContainer>
-      <OptionLink to="/shop">SHOP</OptionLink>
+      <SimpleMenu />
       <OptionLink to="/contact">CONTACT</OptionLink>
       {currentUser ? (
         <OptionLink as="div" onClick={signOutStart}>

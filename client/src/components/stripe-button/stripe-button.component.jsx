@@ -6,6 +6,7 @@ const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
   const publishableKey =
     "pk_test_51IcfLcFucsSgDdOesFSTfmG8IagQhuSzz7Cv5MeA0fpSmhxdqz8Ha7vM5igvkjGFBPxVMQ6uM8UhkPhPdmr3aHeZ00hDaALLXy";
+
   const onToken = (token) => {
     axios({
       url: "payment",

@@ -14,8 +14,19 @@ export const CartItemImage = styled.img`
 export const ItemDetailsContainer = styled.div`
   width: 70%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 10px 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 10px;
+`;
+
+export const QuantityContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  cursor: pointer;
+`;
+
+export const RemoveButtonContainer = styled.div`
+  margin-right: 5px;
+  cursor: pointer;
 `;
