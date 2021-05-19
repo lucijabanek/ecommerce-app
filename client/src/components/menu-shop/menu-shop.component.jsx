@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "@material-ui/core/Menu";
 import { OptionLink, MenuDiv } from "./menu-shop.styles";
 
-export default function SimpleMenu() {
+export default function MenuShop() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleClick = (event) => {
@@ -30,22 +30,22 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <OptionLink to="/shop" onClick={handleClose}>
-          Shop now
+          SHOP NOW
         </OptionLink>
         <OptionLink to="/shop/mens" onClick={handleClose}>
-          Mens
+          MENS
         </OptionLink>
         <OptionLink to="/shop/womens" onClick={handleClose}>
-          Womens
+          WOMENS
         </OptionLink>
         <OptionLink to="/shop/hats" onClick={handleClose}>
-          Hats
+          HATS
         </OptionLink>
         <OptionLink to="/shop/jackets" onClick={handleClose}>
-          Jackets
+          JACKETS
         </OptionLink>
         <OptionLink to="/shop/sneakers" onClick={handleClose}>
-          Sneakers
+          SNEAKERS
         </OptionLink>
       </Menu>
     </div>

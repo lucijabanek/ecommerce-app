@@ -10,4 +10,5 @@ export const OptionLink = styled(Link)`
 
 export const MenuDiv = styled.div`
   padding: 15px;
+  cursor: pointer;
 `;
